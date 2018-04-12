@@ -5,7 +5,6 @@
 ### 仿IOS弹框
 ### 小菊花加载框
 ### 中间位置Toast
- <div>
  <div> //普通底部Toast</div>
  <div>  T.showToast(MainActivity.this, "我在底部");</div>
  <div>  //中部Toast</div>
@@ -14,6 +13,5 @@
  <div>   T.showAnimSuccessToast(MainActivity.this, "成功");</div>
  <div>   //错误Toast</div>
  <div>    T.showAnimErrorToast(MainActivity.this, "失败");</div>
-</div>
 ### SharedPreferences工具类
 ### Android 版本信息工具类
