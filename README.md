@@ -16,11 +16,13 @@
                              <div>//点击了确定按钮</div>
                          <div>}</div>
                      <div>}).show();</div>
+                     
 ### 小菊花加载框
  <div>SweetAlertDialog dialog = new SweetAlertDialog(this);</div>
  <div>dialog.setTitleText("加载中...");</div>
  <div>dialog.show();</div>
  <div>dialog.dismiss();</div>
+ 
 ### 中间位置Toast
  <div> //普通底部Toast</div>
  <div>  T.showToast(MainActivity.this, "我在底部");</div>
@@ -31,7 +33,8 @@
  <div>   //错误Toast</div>
  <div>    T.showAnimErrorToast(MainActivity.this, "失败");</div>
  
-### SharedPreferences工具类
+### SharedPreferences工具类---适用于Int，String，Long，boolean类型
 <div>PrefUtils.setBoolean(this, "trust", true);</div>
 <div>PrefUtils.getBoolean(this, "trust", false);</div>
+
 ### Android 版本信息工具类
