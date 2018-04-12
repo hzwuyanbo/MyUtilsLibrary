@@ -38,3 +38,9 @@
 <div>PrefUtils.getBoolean(this, "trust", false);</div>
 
 ### Android 版本信息工具类
+<div>//包名</div>
+<div>String packageName = VersionUtils.getPackageName(this);</div>
+<div>//版本号</div>
+<div>int versionCode = VersionUtils.getVersionCode(this);</div>
+<div>//版本名称</div>
+<div>String versionName = VersionUtils.getVersionName(this);</div>
