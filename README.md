@@ -3,6 +3,19 @@
 >compile 'com.github.hzwuyanbo:MyUtilsLibrary:1.0.0'
 ## 本项目封装的简单的几个开发常用工具类，方便自己开发使用
 ### 仿IOS弹框
+new AlertDialog(MainActivity.this).builder().setTitle("提示").setMsg("确认删除该条目吗?")
+                    .setNegativeButton("取消", new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                          //点击了取消按钮
+                        }
+                    })
+                    .setPositiveButton("确定", new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            //点击了确定按钮
+                        }
+                    }).show();
 ### 小菊花加载框
 ### 中间位置Toast
  <div> //普通底部Toast</div>
@@ -13,5 +26,6 @@
  <div>   T.showAnimSuccessToast(MainActivity.this, "成功");</div>
  <div>   //错误Toast</div>
  <div>    T.showAnimErrorToast(MainActivity.this, "失败");</div>
+ 
 ### SharedPreferences工具类
 ### Android 版本信息工具类
