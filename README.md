@@ -32,4 +32,6 @@
  <div>    T.showAnimErrorToast(MainActivity.this, "失败");</div>
  
 ### SharedPreferences工具类
+<div>PrefUtils.setBoolean(this, "trust", true);</div>
+<div>PrefUtils.getBoolean(this, "trust", false);</div>
 ### Android 版本信息工具类
