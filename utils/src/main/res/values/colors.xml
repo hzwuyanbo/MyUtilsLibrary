@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="alert_dialog_line">#C6C6C6</color>
+    <color name="action_sheet_blue">#037BFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="action_sheet_gray">#8F8F8F</color>
+    <color name="toast_bg_color">#a7333333</color>
+    <color name="white">#FFFFFF</color>
+</resources>
